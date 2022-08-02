@@ -1,4 +1,3 @@
-import java.util.*;
 public class Revision13 {
     public static int clacFactorial(int n) {
         if (n == 0 || n==1) return 1;

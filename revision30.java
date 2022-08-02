@@ -1,4 +1,3 @@
-import java.util.*;
 public class revision30 {
     public static String Keypad[] = {".","abc","def","ghi","jkl","mmo","pqrs","tu","vwx","yz"};
     public static void printKeypadComb(String str, int idx, String Combination) {

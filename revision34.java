@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class revision34 {
     public static void uniqueSubsequences(String str, int idx, String newStr) {

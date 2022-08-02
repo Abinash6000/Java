@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class revision36 {
     public static String[] keypad = { ".", "abc", " def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };

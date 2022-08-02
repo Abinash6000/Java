@@ -1,6 +1,4 @@
-import java.util.*;
 
-import javax.sql.rowset.spi.SyncResolver;
 public class revision22 {
    public static void main(String args[]) {
     int n = 4;

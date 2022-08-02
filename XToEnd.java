@@ -1,4 +1,3 @@
-import java.util.*;
 public class XToEnd {
     public static void xToEnd(String str, int idx, int count, String newString) {
         if (idx == str.length()) {

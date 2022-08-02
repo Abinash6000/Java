@@ -1,4 +1,3 @@
-import java.util.*;
 public class Revision31 {
     public static boolean[] map = new boolean[26];
     public static void removeDuplicates(String str, int idx, String newString) {

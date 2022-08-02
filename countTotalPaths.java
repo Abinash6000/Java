@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.print.event.PrintEvent;
 
 public class countTotalPaths {
     public static void printSubset(ArrayList<Integer> subset) {

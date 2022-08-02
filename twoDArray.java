@@ -35,5 +35,6 @@ public class twoDArray {
             }
             colStart++;
         }
+        sc.close();
     }
 }

@@ -8,17 +8,17 @@ public class TwoDArrays {
         System.out.println("Enter no. of columns ");
         int m = sc.nextInt();
         int matrix[][] = new int[n][m];
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        for(int i=0; i<m; i++) {
-            for(int j=0; j<n; j++) {
-                System.out.print(matrix[j][i]+" ");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[j][i] + " ");
             }
             System.out.println();
         }
+        sc.close();
     }
 }
-

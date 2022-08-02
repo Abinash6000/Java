@@ -65,5 +65,6 @@ public class Strings1 {
             }
         }
         System.out.println(username);
+        sc.close();
     }
 }

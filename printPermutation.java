@@ -1,6 +1,5 @@
-import java.util.*;
 
-public class Revision32 {
+public class printPermutation {
     public static void printPerm(String str, String permutation) {
         if (str.length() == 0) {
             System.out.println(permutation);

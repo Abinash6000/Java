@@ -1,4 +1,3 @@
-import java.util.*;
 public class revision5 {
     public static void main(String args[]) {
         int n = 0;

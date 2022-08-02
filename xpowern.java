@@ -1,4 +1,3 @@
-import java.util.*;
 public class xpowern {
     public static int calcPower(int x, int n) {
         if (n == 0) { // base case 1

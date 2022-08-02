@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class Revision32 {
     public static void printPerm(String str, String permutation) {
