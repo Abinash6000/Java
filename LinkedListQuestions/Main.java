@@ -4,11 +4,11 @@ class Main {
         ll.createLL(1);
         ll.insertNode(2);
         ll.insertNode(3);
-        ll.insertNode(2);
+        ll.insertNode(4);
         ll.insertNode(5);
         ll.traversalLL();
         Questions q = new Questions();
-        q.deleteDups(ll);
-        ll.traversalLL();
+        LinkedList t = q.partition(ll, 4);
+        t.traversalLL();
     }
 }
