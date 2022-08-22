@@ -10,5 +10,11 @@ class Main {
         newBST.insert(100);
         newBST.insert(20);
         newBST.insert(40);
+
+        newBST.levelOrder(newBST.root);
+        System.out.println();
+        newBST.deleteNode(newBST.root, 90);
+        newBST.levelOrder(newBST.root);
+        System.out.println();
     }
 }

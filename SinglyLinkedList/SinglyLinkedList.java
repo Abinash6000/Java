@@ -35,8 +35,8 @@ public class SinglyLinkedList {
         } else {
             Node tempNode = head;
             int index = 0;
-            while (index < location - 1) { // this loop stops at location-1 because then we can set
-                                           // tempNode.next to nodeValue at location;
+            while (index < location - 1) { // this loop stops at location-1 because then we can
+                                           // set tempNode.next to nodeValue at location;
                 tempNode = tempNode.next;
                 index++;
             }
