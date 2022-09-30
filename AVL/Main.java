@@ -1,15 +1,13 @@
 class Main {
     public static void main(String[] args) {
         AVL AVLTree = new AVL();
-        BinaryNode node1 = new BinaryNode();
-        AVLTree.root = node1;
-        AVLTree.root.value = 1;
-        BinaryNode node2 = new BinaryNode();
-        AVLTree.root.right = node2;
-        AVLTree.root.right.value = 2;
-        BinaryNode node3 = new BinaryNode();
-        AVLTree.root.left = node3;
-        AVLTree.root.left.value = 3;
+        AVLTree.insert(5);
+        AVLTree.insert(10);
+        AVLTree.insert(15);
+        AVLTree.insert(20);
+        AVLTree.levelOrder(AVLTree.root);
+        AVLTree.delete(5);
+        System.out.println();
         AVLTree.levelOrder(AVLTree.root);
     }
 }

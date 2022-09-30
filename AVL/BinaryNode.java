@@ -3,4 +3,8 @@ public class BinaryNode {
     BinaryNode left;
     BinaryNode right;
     int height;
+
+    BinaryNode() {
+        this.height = 0;
+    }
 }
