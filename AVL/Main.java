@@ -9,5 +9,7 @@ class Main {
         AVLTree.delete(5);
         System.out.println();
         AVLTree.levelOrder(AVLTree.root);
+        AVLTree.deleteAVL();
     }
+
 }
